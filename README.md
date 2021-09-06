@@ -19,7 +19,7 @@ serverless offline start --noPrependStageInUrl
 ```
 
 ## send post request to localhost
-Send a [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from the first console
+Send the [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from the first console
 
 ```
 chmod +x ./sample.sh && ./sample.sh
