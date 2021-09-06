@@ -1,7 +1,6 @@
 const calctotalPrice = require("./calc")
 
 module.exports.checkout = async (event) => {
-
   const parsedBody = JSON.parse(event.body)
 
   try {
@@ -10,5 +9,4 @@ module.exports.checkout = async (event) => {
   } catch (e) {
     return e
   }
-
 }

@@ -2,7 +2,7 @@
 
 # bcg-coding-challenge
 I have build an API with a single endpoint that performs a
-checkout action. The single endpoint should take a list of watch ids and return the total cost. In terms of programming language & framework, we are working with node.js and serverless.
+checkout action. The single endpoint takes a list of watch ids and returns the total cost. In terms of programming language & framework, i am working with node.js and serverless.
 
 # usage
 ## setup
