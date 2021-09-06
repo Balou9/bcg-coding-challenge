@@ -7,7 +7,7 @@ function occurences (requiredWatches) {
   }, {});
 }
 
-function calctotalPrice (watches) {
+function calcTotalPrice (watches) {
   let totalPrice = 0
   const occ = occurences(watches)
   for (const key in occ) {
@@ -24,4 +24,4 @@ function calctotalPrice (watches) {
   return totalPrice
 }
 
-module.exports = calctotalPrice
+module.exports = calcTotalPrice

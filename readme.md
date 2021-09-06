@@ -39,4 +39,4 @@ npm test
 # improvements // to do's
 
 - [ ] add cd to the pipeline
-- [ ] `calctotalPrice` to async
+- [ ] `calcTotalPrice` to async
