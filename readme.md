@@ -33,7 +33,7 @@ curl -H "Content-Type: application/json" -d "{\"productName\":\"rainbow pullover
 
 ```
 
-# improvements
+# improvements // to do's
 
 - [ ] deploy endpoint on stage
 - [ ] add cd to the pipeline
