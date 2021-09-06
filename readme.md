@@ -6,19 +6,19 @@ checkout action. The single endpoint should take a list of watch ids and return 
 
 # usage
 ## setup
-open a console and type in the following
+Open a console and type in the following
 ```
 git clone https://github.com/Balou9/bcg-coding-challenge.git  
 cd extermitators-api && npm i  
 ```
-open another console and type in the following
+Open another console and type in the following
 
 ```
 serverless offline
 ```
 
 ## send post request to localhost
-send [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from another console
+Send a [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from another console
 
 ```
 curl -s \
