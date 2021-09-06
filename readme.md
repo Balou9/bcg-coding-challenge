@@ -30,7 +30,7 @@ curl -s \
 ```
 
 # test
-The unit tests are defined in [test.js](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/test.js) and [will be runned any time a push is made to the repo](https://github.com/Balou9/bcg-coding-challenge/blob/main/.github/workflows/ci.yml).
+The unit tests are defined in [test.js](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/test.js) and [will be runned any time a push is made to the repo](https://github.com/Balou9/bcg-coding-challenge/blob/main/.github/workflows/ci.yml#L3).
 
 
 Run tests locally in api directory:
