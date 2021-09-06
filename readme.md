@@ -1,6 +1,5 @@
 [![ci](https://github.com/Balou9/bcg-coding-challenge/workflows/ci/badge.svg)](https://github.com/Balou9/bcg-coding-challenge/actions)
 
-
 # bcg-coding-challenge
 
 I have build an API with a single endpoint that performs a
@@ -19,9 +18,8 @@ open another console and type in the following
 serverless offline
 ```
 
-## send request to localhost
-curl request from another console
-
+## send post request to localhost
+send [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from another console
 
 ```
 curl -s \
@@ -29,16 +27,22 @@ curl -s \
   -H "Content-Type: application/json" \
   -H "Accept: application/json" \
   -d '{"watchList":["001","001","001","001","001","001","002","002","002","003"]}' \
-  http://localhost:8080/dev/checkout/
+  http://localhost:8080/dev/checkout
 ```
 
 # test
-npm unit tests  
 
-bash integration tests
+
+The unit tests are defined in [test.js](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/test.js) and any time a push is made to the repo.
+
+
+Run tests locally in api directory:
+```
+npm test
+```
 
 # improvements // to do's
 
-- [ ] deploy endpoint on stage
+- [ ] deploy endpoint to stage
 - [ ] add cd to the pipeline
 - [ ] `calctotalPrice` to async

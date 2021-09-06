@@ -14,6 +14,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - run: |
+      - name: npm test total price calculation
+        run: |
           cd extermitators-api && npm install
           npm test
