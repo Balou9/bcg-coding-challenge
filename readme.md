@@ -14,6 +14,7 @@ git clone https://github.com/Balou9/bcg-coding-challenge.git
 cd extermitators-api && npm i  
 ```
 open another console and type in the following
+
 ```
 serverless offline
 ```
@@ -21,17 +22,20 @@ serverless offline
 ## send request to localhost
 curl request from another console
 
+
+```
+curl -s \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  -d '{"watchList":["001","001","001","001","001","001","002","002","002","003"]}' \
+  http://localhost:8080/dev/checkout/
+```
+
 # test
 npm unit tests  
-```
-npm test
-```
+
 bash integration tests
-
-```
-curl -H "Content-Type: application/json" -d "{\"productName\":\"rainbow pullover\"}" -X POST https://cl9mptrtz2.execute-api.eu-central-1.amazonaws.com/dev/products
-
-```
 
 # improvements // to do's
 
