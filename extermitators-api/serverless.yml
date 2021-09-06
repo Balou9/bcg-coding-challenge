@@ -1,0 +1,21 @@
+service: extermitators-api
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-east-1
+
+functions:
+  checkout:
+    handler: handler.checkout
+    events:
+      - http:
+          path: checkout/
+          method: post
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 8080

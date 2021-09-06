@@ -1,0 +1,32 @@
+{
+  "001": {
+    "watchid": "001",
+    "watchName": "Rolex",
+    "unitPrice": 100,
+    "discount": {
+      "on": 3,
+      "amount": 200
+    }
+  },
+  "002": {
+    "watchid": "002",
+    "watchName": "Michael Kors",
+    "unitPrice": 80,
+    "discount": {
+      "on": 2,
+      "amount": 120
+    }
+  },
+  "003": {
+    "watchid": "003",
+    "watchName": "Swatch",
+    "unitPrice": 50,
+    "discount": null
+  },
+  "004": {
+    "watchid": "004",
+    "watchName": "Casio",
+    "unitPrice": 30,
+    "discount": null
+  }
+}
