@@ -1,9 +1,8 @@
 [![ci](https://github.com/Balou9/bcg-coding-challenge/workflows/ci/badge.svg)](https://github.com/Balou9/bcg-coding-challenge/actions)
 
 # bcg-coding-challenge
-
 I have build an API with a single endpoint that performs a
-checkout action. The single endpoint should take a list of watches and return the total cost.
+checkout action. The single endpoint should take a list of watch ids and return the total cost.
 
 # usage
 ## setup
@@ -31,9 +30,7 @@ curl -s \
 ```
 
 # test
-
-
-The unit tests are defined in [test.js](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/test.js) and any time a push is made to the repo.
+The unit tests are defined in [test.js](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/test.js) and [will be runned any time a push is made to the repo](https://github.com/Balou9/bcg-coding-challenge/blob/main/.github/workflows/ci.yml).
 
 
 Run tests locally in api directory:
