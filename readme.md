@@ -2,7 +2,7 @@
 
 # bcg-coding-challenge
 I have build an API with a single endpoint that performs a
-checkout action. The single endpoint takes a list of watch ids and returns the total cost. In terms of programming language & framework, i am working with node.js and serverless.
+checkout action. The single endpoint takes a list of watch ids and returns the total price. In terms of programming language & framework, i am working with node.js and serverless.
 
 # usage
 ## setup
@@ -10,9 +10,9 @@ Work with two consoles.
 Open the first console and type in the following:
 ```
 git clone https://github.com/Balou9/bcg-coding-challenge.git  
-cd extermitators-api && npm i  
+cd bcg-coding-challenge/extermitators-api && npm i  
 ```
-Open the second console and type in the following
+Open the second console from the same directory and type in the following:
 
 ```
 serverless offline start --noPrependStageInUrl
