@@ -6,7 +6,7 @@ checkout action. The single endpoint takes a list of watch ids and returns the t
 
 # usage
 ## setup
-Work with two consoles.
+**Work with two consoles.**  
 Open the first console and type in the following:
 ```
 git clone https://github.com/Balou9/bcg-coding-challenge.git  
