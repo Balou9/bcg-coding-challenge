@@ -10,7 +10,7 @@ functions:
     handler: handler.checkout
     events:
       - http:
-          path: checkout/
+          path: /checkout
           method: post
 
 plugins:
