@@ -2,7 +2,7 @@
 
 # bcg-coding-challenge
 I have build an API with a single endpoint that performs a
-checkout action. The single endpoint should take a list of watch ids and return the total cost.
+checkout action. The single endpoint should take a list of watch ids and return the total cost. In terms of programming language & framework, we are working with node.js and serverless.
 
 # usage
 ## setup
@@ -14,7 +14,7 @@ cd extermitators-api && npm i
 Open another console and type in the following
 
 ```
-serverless offline
+serverless offline start --noPrependStageInUrl
 ```
 
 ## send post request to localhost
@@ -26,7 +26,7 @@ curl -s \
   -H "Accept: application/json" \
   -H "Content-Type: application/json" \
   -d '{"watchList":["001","001","001","001","001","001","002","002","002","003"]}' \
-  http://localhost:8080/dev/checkout
+  http://localhost:8080/checkout
 ```
 
 # test
@@ -40,6 +40,5 @@ npm test
 
 # improvements // to do's
 
-- [ ] deploy endpoint to stage
 - [ ] add cd to the pipeline
 - [ ] `calctotalPrice` to async
