@@ -23,8 +23,8 @@ send [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/m
 ```
 curl -s \
   -X POST \
-  -H "Content-Type: application/json" \
   -H "Accept: application/json" \
+  -H "Content-Type: application/json" \
   -d '{"watchList":["001","001","001","001","001","001","002","002","002","003"]}' \
   http://localhost:8080/dev/checkout
 ```
