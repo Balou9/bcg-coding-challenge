@@ -6,27 +6,25 @@ checkout action. The single endpoint takes a list of watch ids and returns the t
 
 # usage
 ## setup
-Open a console and type in the following
+Work with two consoles.
+Open the first console and type in the following:
 ```
 git clone https://github.com/Balou9/bcg-coding-challenge.git  
 cd extermitators-api && npm i  
 ```
-Open another console and type in the following
+Open the second console and type in the following
 
 ```
 serverless offline start --noPrependStageInUrl
 ```
 
 ## send post request to localhost
-Send a [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from another console
+Send a [sample curl request](https://github.com/Balou9/bcg-coding-challenge/blob/main/extermitators-api/sample.sh) from the first console
 
 ```
-curl -s \
-  -X POST \
-  -H "Accept: application/json" \
-  -H "Content-Type: application/json" \
-  -d '{"watchList":["001","001","001","001","001","001","002","002","002","003"]}' \
-  http://localhost:8080/checkout
+chmod +x ./sample.sh && ./sample.sh
+// "{\"price\":650}"
+
 ```
 
 # test
