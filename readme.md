@@ -40,3 +40,4 @@ npm test
 
 - [ ] add cd to the pipeline
 - [ ] `calcTotalPrice` to async
+- [ ] add and test statusCode edge cases
